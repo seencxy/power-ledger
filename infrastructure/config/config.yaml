@@ -1,0 +1,21 @@
+app:
+  # app run port
+  port: 8000
+  pprof_port: 8090
+  app_env: "local"
+  app_debug: true
+  app_name: "news"
+  graceful_wait: 5s
+
+# db config
+db:
+  user: "root"
+  password: "Or2452020438"
+  host: "127.0.0.1"
+  port: "3306"
+  dbname: "PowerLedgerGo"
+
+contract:
+  DeployByPrv: "6a8c9ee93251719eb7f3542fb22b44c362f0cc072551a81872ca39c88f7f449f"
+  HomomorphicEncryptionAddress: "0xad41c1643f9C4a10A7549703C1Abba41BEe0D9Ec"
+  AdvancedVirtualPowerPlantDAOAddress: "0x8f5e4b6E91259DF6a297eD6A9975Ac36F8ECD0c7"
